@@ -27,7 +27,8 @@
       "error",
       { "devDependencies": ["**/*.test.ts", "**/*.spec.ts", "jest.config.ts"] }
     ],
-    "import/no-unresolved": "error"
+    "import/no-unresolved": "error",
+    "no-console": "off"
   },
   "settings": {
     "import/parsers": {
